@@ -1,0 +1,110 @@
+body {
+    background: black; /* Soft gradient for the background */
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Beautiful card gradient */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Add padding for content */
+    width: 100%; /* Adjust card width */
+    max-width: 800px; 
+}
+.card img{
+    height: 100%;
+    object-fit: cover;
+}
+.display-5{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+.text-muted{
+    font-size: 1rem;
+    color: #6c757d;
+}
+.city, .price, .slots {
+    color: black !important;
+    text-shadow: none;      
+    font-weight: 500; 
+    margin-bottom: 10px;
+    position: relative;
+    left: 0px;
+}
+.form-control{
+    position: relative;
+    top: 0px;
+}
+.booking{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.form-select {
+    display: block;
+    width: 100%; /* Make it responsive */
+    padding: 10px; /* Space inside the dropdown */
+    font-size: 1rem; /* Match the size with input fields */
+    color: #495057; /* Text color */
+    background-color: #fff; /* Dropdown background */
+    border: 1px solid #ced4da; /* Border styling */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Slight inner shadow for depth */
+}
+
+.form-select:focus {
+    outline: none; /* Remove default outline */
+    border-color: #80bdff; /* Highlighted border on focus */
+    box-shadow: 0 0 5px rgba(128, 189, 255, 0.5); /* Glow effect */
+}
+
+  
+  .form-select option[disabled] {
+    color: red;
+  }
+  
+  .booking {
+    margin-top: 20px;
+  }
+  
+  .text-danger {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  .col-md-6 {
+    flex: 1; /* Ensures both sides take equal space */
+    padding: 15px;}
+
+    .row.g-0 {
+        display: flex; /* Aligns left and right sections properly */
+        flex-wrap: wrap;
+    }
+    .info-group {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Align elements to the left */
+        gap: 10px; /* Add spacing between items */
+        margin-bottom: 20px; /* Spacing below the group */
+    }
+    /* Button styling */
+.btn-primary {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Button gradient */
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05); /* Slight hover effect */
+    background: linear-gradient(135deg, #2575fc, #6a11cb); /* Reverse gradient on hover */
+}

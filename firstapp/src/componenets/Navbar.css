@@ -1,0 +1,64 @@
+/* General Navbar Styles */
+.navbar {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: 10;
+  padding: 10px 20px;
+  position: fixed;
+  }
+  
+  /* Navbar Brand */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(211, 230, 42);
+    text-transform: uppercase;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    color: rgb(189, 228, 15);
+    transform: scale(1.1); /* Slight scaling on hover */
+  }
+  
+  .nav-link{
+    color: rgb(211, 230, 42);
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    
+  }
+  
+  .nav-link:hover {
+    color: rgb(189, 228, 15); 
+    transform: scale(1.2);
+  }
+  .navbar-nav{
+    margin-left: auto;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .navbar-nav {
+      float: right;
+    }
+    .navbar-toggler {
+      border: none;
+    }
+    
+    .navbar-collapse{
+      transition: height 0.3s ease, opacity 0.3s ease;
+    }
+    .navbar-collapse.show {
+      opacity: 1;
+    }
+    .navbar-toggler-icon{
+      border: none;
+      background-color: rgb(35, 230, 67);
+      box-shadow: none;
+    }
+  }
+  

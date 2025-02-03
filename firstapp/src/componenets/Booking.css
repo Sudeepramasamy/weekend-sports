@@ -1,0 +1,36 @@
+.booking-section {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    color: #ffffff;
+}
+
+.btn-success {
+    border-radius: 2px;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background-color: #28a745; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-success:hover {
+    background-color: #218838; 
+}
+
+p {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-weight: bold;
+    color: #f8f5f2;
+}
