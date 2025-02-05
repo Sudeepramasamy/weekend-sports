@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css';
-import Navbar from './componenets/Navbar';
-import Home from './componenets/Home';
-import Turf from './componenets/Turf';
-import Bookingpage from './componenets/Bookingpage';
-import Register from './componenets/Register';
-import Login from './componenets/Login';
-import ContactForm from './componenets/ContactForm';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Turf from './components/Turf';
+import Bookingpage from './components/Bookingpage';
+import Register from './components/Register';
+import Login from './components/Login';
+import ContactForm from './components/ContactForm';
 
 
 
