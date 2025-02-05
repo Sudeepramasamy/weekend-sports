@@ -64,6 +64,12 @@ SIMPLE_JWT = {
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+CORS_ALLOWED_ORIGINS = [
+    "https://weekendsports.netlify.app/",  # Replace with your Netlify domain
+]
+
+ALLOWED_HOSTS = ["myapp.onrender.com", "localhost"]
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
