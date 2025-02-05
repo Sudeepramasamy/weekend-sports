@@ -2,6 +2,7 @@
   "name": "firstapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "axios": "^1.7.9",
     "cra-template": "1.2.0",
@@ -34,5 +35,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
