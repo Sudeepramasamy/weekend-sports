@@ -111,3 +111,8 @@ export const sendContactMessage=async (formData)=>{
     }
 }
 
+const BASE_URL = "https://https://weekend-sports.onrender.com";
+
+fetch(`${BASE_URL}/api/data/`)
+  .then(response => response.json())
+  .then(data => console.log(data));
