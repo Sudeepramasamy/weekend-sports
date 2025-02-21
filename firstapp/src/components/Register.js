@@ -25,7 +25,7 @@ const Register=()=>{
             return;
         }
         try{
-            await axios.post('http://127.0.0.1:8000/register/',{username,email,password,confirm_password: confirmPassword});
+            await axios.post('https://sudeepramasamy.pythonanywhere.com/register/',{username,email,password,confirm_password: confirmPassword});
             setSuccess("Registration sucessful!now you can login");
             setError("");
             setFormData({username:"",email:"",password:""});
