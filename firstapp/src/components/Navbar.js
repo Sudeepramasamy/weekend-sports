@@ -17,6 +17,7 @@ function Navbar() {
           <Link className="nav-item nav-link" to="/turf">Turfs</Link>
           <Link className="nav-item nav-link" to="/contact">Contact</Link>
           <Link className="nav-item nav-link " to="/login">Login</Link>
+          <Link className="nav-item nav-link " to="/register">Register</Link>
         </div>
       </div>
     </nav>
