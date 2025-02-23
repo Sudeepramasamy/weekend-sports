@@ -60,7 +60,7 @@ export function getTurfDetails(turfId){
     if (!token){
         return Promise.reject(new Error("user is not authenticated"));
     }
-    return axios.get(`https://sudeepramasamy.pythonanywhere.com/${turfId}/`,{
+    return axios.get(`https://sudeepramasamy.pythonanywhere.com/turf/${turfId}/`,{
         headers: { Authorization: `Bearer ${token}`},
     })
     .then(res=>res.data);
